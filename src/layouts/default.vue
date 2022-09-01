@@ -1,9 +1,18 @@
+<script setup lang="ts">
+import { RouterView } from 'vue-router';
+
+</script>
+
 <template>
-  <main class="px-4 py-10 text-center text-gray-700 dark:text-gray-200">
-    <RouterView />
-    <Footer />
-    <div class="mt-5 mx-auto text-center opacity-75 dark:opacity-50 text-sm">
-      [Default Layout]
+  <header class="flex justify-around">
+    <Header class="w-10/12 max-w-screen-lg"></Header>
+  </header>
+
+  <div class="grow h-full flex justify-around">
+    <div class="bg-white m-5 rounded-lg p-3 w-10/12 max-w-screen-lg shadow-lg">
+
+      <RouterView />
     </div>
-  </main>
+  </div>
 </template>
+

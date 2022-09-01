@@ -1,10 +1,10 @@
 <script setup lang="ts">
-const { t } = useI18n()
+// const { t } = useI18n()
 </script>
 
 <template>
   <div>
-    {{ t('not-found') }}
+    login :)
   </div>
 </template>
 
@@ -12,3 +12,4 @@ const { t } = useI18n()
 meta:
   layout: plain
 </route>
+
