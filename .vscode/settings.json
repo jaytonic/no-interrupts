@@ -12,7 +12,7 @@
     "*.css": "postcss"
   },
   "editor.formatOnSave": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.defaultFormatter": "antfu.vite",
   "[json]": {
     "editor.defaultFormatter": "vscode.json-language-features"
   },
